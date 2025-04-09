@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Search Me Up",
+    "description": "A full-stack web-based networking and job application platform for users to showcase their skills and experience.",
+    "skills": ["React", "Node.js", "Express", "PostgreSQL", "Postman"],
+    "image": null,
+    "link": "https://searchmeup.com",
+    "github": "https://github.com/osasiyamu/Personal-Portfolio"
+  },
+  {
+    "title": "CleanCycle",
+    "description": "CleanCycle is a mobile application designed to address the pressing issue of environmental pollution and promote recycling to protect the environment. It serves as a platform for individuals and companies to actively participate in waste management efforts and contribute to a cleaner and more sustainable planet. It also offers a learning center to enlighten the public on environmental facts and correct misconceptions.",
+    "skills": ["Flutter", "Firebase", "Google Gemini", "Jira"],
+    "image": null,
+    "link": "https://clean-cycle.com",
+    "github": "https://github.com/rkareem2/Clean-Cycle_flutter-app"
+  },
+  {
+    "title": "Mini-Survey Monkey",
+    "description": "A survey application that allows users to create and respond to surveys, and surveyors to analyze and visualize survey data with features like graphs and charts.",
+    "skills": ["Spring Boot", "MySQL", "Azure", "GitHub Actions", "Chart.js"],
+    "image": null,
+    "link": "https://minisurvey.com",
+    "github": "https://github.com/charles-55/minisurvey"
+  }
+]
