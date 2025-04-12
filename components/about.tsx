@@ -23,7 +23,7 @@ export function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h3 className="mb-4 text-xl font-semibold">Who I Am</h3>
+            <h3 className="mb-4 text-xl font-semibold text-white">Who I Am</h3>
             <p className="mb-6 text-muted-foreground">
               I am a passionate software developer with a strong foundation in software engineering. I enjoy solving
               complex problems and creating efficient, elegant solutions. My approach combines technical expertise with
