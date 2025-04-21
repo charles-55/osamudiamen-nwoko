@@ -47,7 +47,7 @@ export function Projects() {
                   {project.skills.length > 3 && <Badge variant="outline">+{project.skills.length - 3}</Badge>}
                 </div>
               </CardContent>
-              <CardFooter className="flex justify-between p-6 pt-0">
+              <CardFooter className={`flex p-6 pt-0 ${project.link ? "justify-between" : "justify-end"}`}>
                 {project.link && (
                   <Button asChild variant="outline" size="sm">
                     <Link href={project.link} target="_blank" rel="noopener noreferrer">
