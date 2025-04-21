@@ -1,5 +1,13 @@
 [
   {
+    "title": "Roomie",
+    "description": "A mobile app designed to help users find roommates and housing.",
+    "skills": ["React Native", "Node.js", "Express", "PostgreSQL", "MongoDB"],
+    "image": null,
+    "link": null,
+    "github": null
+  },
+  {
     "title": "Search Me Up",
     "description": "A full-stack web-based networking and job application platform for users to showcase their skills and experience.",
     "skills": ["React", "Node.js", "Express", "PostgreSQL", "Postman"],
