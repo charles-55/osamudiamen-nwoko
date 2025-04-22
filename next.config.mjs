@@ -13,6 +13,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  allowedDevOrigins: ['local-origin.dev', '*.local-origin.dev', 'https://osamudiamennwoko.vercel.app/'],
   eslint: {
     ignoreDuringBuilds: true,
   },

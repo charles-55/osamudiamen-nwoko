@@ -33,7 +33,7 @@ export function Projects() {
           {projectsData.slice(0, visibleProjects).map((project, index) => (
             <Card key={index} className="overflow-hidden">
               <div className="relative h-48 w-full">
-                <Image src={`/projects/${project.image}` || "/logo.png"} alt={project.title} fill className="object-cover" />
+                <Image src={project.image || "/logo.png"} alt={project.title} fill className="object-contain" />
               </div>
               <CardContent className="p-6">
                 <h3 className="mb-2 text-xl font-semibold">{project.title}</h3>

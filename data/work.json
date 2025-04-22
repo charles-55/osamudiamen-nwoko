@@ -1,7 +1,7 @@
 [
   {
     "title": "Fullstack Mobile Developer",
-    "company": "WorkFlow Careers.",
+    "company": "WorkFlow Careers",
     "startDate": "Nov 2024",
     "endDate": "Apr 2025",
     "description": "I reimagine the job application process by leveraging innovative tools like AI to showcase a more personal and transparent view of every candidate. This approach ensures that no talent goes unnoticed while helping organizations see beyond polished but misleading resumes. By combining technology and empathy, I enable hiring teams to uncover hidden potential, streamline decisions, and build more authentic, high-performing teams.",
@@ -9,7 +9,7 @@
   },
   {
     "title": "AI Software Developer",
-    "company": "Reality AI Lab.",
+    "company": "Reality AI Lab",
     "startDate": "Jun 2024",
     "endDate": "Oct 2024",
     "description": "I had the privilege of developing AI solutions for educational purposes and connecting with diverse individuals to foster a global community dedicated to inclusive and sustainable education. Together, we created innovative tools that empower learners to adapt and thrive in a rapidly changing world. This experience allowed me to combine my passion for technology with a mission to make quality education accessible to all, driving meaningful impact and inspiring lifelong learning.",
@@ -28,7 +28,7 @@
     "company": "Comité Creativo",
     "startDate": "Jan 2022",
     "endDate": "Aug 2022",
-    "description": "I collaborated on the Open Data Kit projects, resolving GitHub issues and ensuring seamless integration with backend services.",
+    "description": "At Comité Creativo, I collaborated on the Open Data Kit projects, resolving GitHub issues and ensuring seamless integration with backend services. This experience allowed me to develop a deep understanding of Android development and contribute to the growth of open source projects.",
     "skills": ["Java", "Kotlin", "Android Studio", "GitHub", "Agile"]
   }
 ]
