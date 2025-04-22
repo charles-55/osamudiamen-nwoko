@@ -30,35 +30,40 @@ export function Contact() {
     e.preventDefault()
     if (!emailRegex.test(formData.email)) {
       toast({
-        title: "Invalid email",
+        title: "Invalid Email!",
         description: "Please enter a valid email address.",
-        variant: "destructive",
       })
       return
     }
     setIsSubmitting(true)
 
     try {
-      // In a real implementation, you would send this data to your backend
-      // For demo purposes, we'll just simulate a successful submission
-      await new Promise((resolve) => setTimeout(resolve, 1000))
-
-      toast({
-        title: "Message sent!",
-        description: "Thank you for reaching out. I'll get back to you soon.",
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_GATEWAY_URL}/api/contact`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
       })
-
-      // Reset form
-      setFormData({ name: "", email: "", message: "" })
+      const result = await response.json();
+      if (response.ok) {
+        setFormData({ name: "", email: "", message: "" })
+        toast({
+          title: "Message sent!",
+          description: "We'll get back to you as soon as possible.",
+        })
+      } else {
+        toast({
+          title: "Error!",
+          description: result.error || 'Something went wrong',
+        })
+      }
     } catch (error) {
       toast({
-        title: "Something went wrong",
-        description: "Your message couldn't be sent. Please try again later.",
-        variant: "destructive",
+        title: "Error!",
+        description: 'Failed to connect to the server',
       })
-    } finally {
-      setIsSubmitting(false)
     }
+
+    setIsSubmitting(false)
   }
 
   return (

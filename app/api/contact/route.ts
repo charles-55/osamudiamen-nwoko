@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     const mailOptions = {
       from: email,
       to: 'osamudiamennwoko@outlook.com',
-      subject: `Inquiry Form Submission from ${name}`,
+      subject: `Contact Form Submission from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
     };
 
