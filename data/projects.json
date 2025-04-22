@@ -38,5 +38,13 @@
     "image": null,
     "link": null,
     "github": "https://github.com/charles-55/Mini-SurveyMonkey"
+  },
+  {
+    "title": "Look Inna Book",
+    "description": "A graphics-based online bookstore programmed using the Java programming language and PostgreSQL as the backend database.",
+    "skills": ["Java", "PostgreSQL", "GUI"],
+    "image": null,
+    "link": null,
+    "github": "https://github.com/charles-55/OnlineBookstore"
   }
 ]
