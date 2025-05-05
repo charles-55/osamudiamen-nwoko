@@ -32,8 +32,8 @@ export function Projects() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projectsData.slice(0, visibleProjects).map((project, index) => (
             <Card key={index} className="overflow-hidden">
-              <div className="relative pt-4 h-48 w-full">
-                <Image src={project.image || "/logo.png"} alt={project.title} fill className="object-contain" />
+              <div className="relative h-48 w-full">
+                <Image src={project.image || "/logo.png"} alt={project.title} fill className="mt-4 object-contain" />
               </div>
               <CardContent className="p-6">
                 <h3 className="mb-2 text-xl font-semibold">{project.title}</h3>
