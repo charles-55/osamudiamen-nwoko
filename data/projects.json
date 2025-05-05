@@ -26,7 +26,7 @@
   {
     "title": "SYSCX",
     "description": "SYSCX is a prototype version of Twitter(X) built for students to allow them to connect and share posts.",
-    "skills": ["JavaScript", "PHP", "Selenium", "MySQL", "HTML", "CSS"],
+    "skills": ["HTML", "PHP", "Selenium", "MySQL", "CSS"],
     "image": "/projects/syscx.png",
     "link": null,
     "github": "https://github.com/charles-55/SYSCX"
