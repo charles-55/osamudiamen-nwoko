@@ -24,6 +24,14 @@
     "github": "https://github.com/osasiyamu/Personal-Portfolio"
   },
   {
+    "title": "SYSCX",
+    "description": "SYSCX is a prototype version of Twitter(X) built for students to allow them to connect and share posts.",
+    "skills": ["JavaScript", "PHP", "Selenium", "MySQL", "HTML", "CSS"],
+    "image": "/projects/syscx.png",
+    "link": null,
+    "github": "https://github.com/charles-55/SYSCX"
+  },
+  {
     "title": "Finvest",
     "description": "Finvest is an Access Control Mechanism research designed to test cryptography and access control matrices in financial institutions by allowing the right permissions, finding loopholes, and ensuring strong and secure user passwords.",
     "skills": ["Python", "Cryptography", "Report Documentation", "Research"],
