@@ -1,9 +1,4 @@
-import { Hero } from "@/components/hero"
-import { About } from "@/components/about"
-import { WorkExperience } from "@/components/work-experience"
-import { Skills } from "@/components/skills"
-import { Projects } from "@/components/projects"
-import { Contact } from "@/components/contact"
+import { About, Contact, Hero, Projects, Skills, WorkExperience } from "@/components/portfolio-sections"
 
 export default function Home() {
   return (

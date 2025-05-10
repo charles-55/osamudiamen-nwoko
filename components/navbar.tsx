@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Menu, X } from "lucide-react"
 import { Logo } from "./logo"
@@ -17,6 +18,10 @@ export function Navbar() {
   }
 
   const scrollToSection = (sectionId: string) => {
+    if (window.location.pathname !== "/") {
+      window.location.href = `/#${sectionId}`
+      return
+    }
     const element = document.getElementById(sectionId)
     if (element) {
       element.scrollIntoView({ behavior: "smooth" })
@@ -28,15 +33,15 @@ export function Navbar() {
       <div className="container flex h-16 items-center justify-between px-4">
         <Logo />
         <nav className="hidden md:flex md:items-center md:gap-6">
-          <button className="text-sm font-medium hover:text-primary" onClick={() => scrollToSection("about")}>
-            About
-          </button>
           <button className="text-sm font-medium hover:text-primary" onClick={() => scrollToSection("experience")}>
             Experience
           </button>
           <button className="text-sm font-medium hover:text-primary" onClick={() => scrollToSection("projects")}>
             Projects
           </button>
+          <Link href="/games" className="text-sm font-medium hover:text-primary">
+            Games
+          </Link>
           <button className="text-sm font-medium hover:text-primary" onClick={() => scrollToSection("contact")}>
             Contact
           </button>
@@ -68,15 +73,6 @@ export function Navbar() {
               <button
                 className="text-lg font-medium"
                 onClick={() => {
-                  scrollToSection("about");
-                  closeMenu()
-                }}
-              >
-                About
-              </button>
-              <button
-                className="text-lg font-medium"
-                onClick={() => {
                   scrollToSection("experience");
                   closeMenu()
                 }}
@@ -92,6 +88,9 @@ export function Navbar() {
               >
                 Projects
               </button>
+              <Link href="/games" className="text-lg font-medium" onClick={closeMenu}>
+                Games
+              </Link>
               <button
                 className="text-lg font-medium"
                 onClick={() => {

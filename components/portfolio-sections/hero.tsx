@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { ChevronDown, Github, Linkedin } from "lucide-react"
-import { ScrollLink } from "./scroll-link"
+import { ScrollLink } from "../scroll-link"
 import Image from "next/image"
 
 export function Hero() {
