@@ -1,5 +1,13 @@
 [
   {
+    "title": "Convene",
+    "description": "Convene is a collaborative scheduling web application that helps teams find the best time to meet based on everyone's availability. Users can select their available time ranges across the week, and Convene will suggest and rank the optimal meeting times where multiple team members are available.",
+    "skills": ["Next.js", "Node.js", "Express", "PostgreSQL", "MongoDB", "Tailwind CSS", "Prisma", "Stripe", "Vercel"],
+    "image": "/projects/convene.png",
+    "link": "https://convene-web.vercel.app/",
+    "github": "https://github.com/charles-55/convene"
+  },
+  {
     "title": "Roomie",
     "description": "A mobile app designed to help users find roommates and housing accommodations. It also provides a platform for users to connect with potential landlords and real estate agents.",
     "skills": ["React Native", "Node.js", "Express", "PostgreSQL", "MongoDB"],
