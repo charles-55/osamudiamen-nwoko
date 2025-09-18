@@ -8,6 +8,13 @@
     "github": "https://github.com/charles-55/convene"
   },
   {
+    "title": "Shot by Charlie",
+    "description": "",
+    "image": "/projects/shotbycharlie.png",
+    "link": "https://shotbycharlie.vercel.app/",
+    "github": null
+  },
+  {
     "title": "Roomie",
     "description": "A mobile app designed to help users find roommates and housing accommodations. It also provides a platform for users to connect with potential landlords and real estate agents.",
     "skills": ["React Native", "Node.js", "Express", "PostgreSQL", "MongoDB"],
