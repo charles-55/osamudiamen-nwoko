@@ -1,5 +1,13 @@
 [
   {
+    "title": "STEM Instructor",
+    "company": "Code Ninjas",
+    "startDate": "June 2025",
+    "endDate": null,
+    "description": "As a STEM Instructor at Code Ninjas, I lead engaging, hands-on technology education programs for students, fostering creativity, problem-solving, and a passion for STEM. I teach and guide learners through a wide range of topics and tools, including block-based programming, robotics, microcontroller programming, stop motion animation, game design, circuit design, electrical wiring, and tool safety.",
+    "skills": ["Teaching", "Microcontroller Programming", "Circuit Design", "Game Design", "Course Management"]
+  },
+  {
     "title": "Fullstack Mobile Developer",
     "company": "WorkFlow Careers",
     "startDate": "Nov 2024",
