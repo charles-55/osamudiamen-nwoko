@@ -9,7 +9,8 @@
   },
   {
     "title": "Shot by Charlie",
-    "description": "",
+    "description": "A web portfolio designed to showcase my photography skills.",
+    "skills": ["Photography", "Next.js", "Responsive Design"],
     "image": "/projects/shotbycharlie.png",
     "link": "https://shotbycharlie.vercel.app/",
     "github": null
