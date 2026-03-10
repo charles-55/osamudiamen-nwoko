@@ -2,7 +2,7 @@
   {
     "title": "Convene",
     "description": "Convene is a collaborative scheduling web application that helps teams find the best time to meet based on everyone's availability. Users can select their available time ranges across the week, and Convene will suggest and rank the optimal meeting times where multiple team members are available.",
-    "skills": ["Next.js", "Node.js", "Express", "PostgreSQL", "MongoDB", "Tailwind CSS", "Prisma", "Stripe", "Vercel"],
+    "skills": ["Next.js", "Node.js", "Express", "PostgreSQL", "MongoDB", "Tailwind CSS", "Prisma", "Vercel"],
     "image": "/projects/convene.png",
     "link": "https://convene-web.vercel.app/",
     "github": "https://github.com/charles-55/convene"
