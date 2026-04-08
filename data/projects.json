@@ -16,20 +16,12 @@
     "github": "https://github.com/charles-55/convene"
   },
   {
-    "title": "Shot by Charlie",
-    "description": "A web portfolio designed to showcase my photography skills.",
-    "skills": ["Photography", "Next.js", "Responsive Design"],
-    "image": "/projects/shotbycharlie.png",
-    "link": "https://shotbycharlie.vercel.app/",
-    "github": null
-  },
-  {
-    "title": "Roomie",
-    "description": "A mobile app designed to help users find roommates and housing accommodations. It also provides a platform for users to connect with potential landlords and real estate agents.",
-    "skills": ["React Native", "Node.js", "Express", "PostgreSQL", "MongoDB"],
-    "image": null,
+    "title": "Finvest",
+    "description": "Finvest is an Access Control Mechanism research designed to test cryptography and access control matrices in financial institutions by allowing the right permissions, finding loopholes, and ensuring strong and secure user passwords.",
+    "skills": ["Python", "Cryptography", "Report Documentation", "Research"],
+    "image": "/projects/finvest.png",
     "link": null,
-    "github": null
+    "github": "https://github.com/charles-55/Finvest"
   },
   {
     "title": "CleanCycle",
@@ -56,14 +48,6 @@
     "github": "https://github.com/charles-55/SYSCX"
   },
   {
-    "title": "Finvest",
-    "description": "Finvest is an Access Control Mechanism research designed to test cryptography and access control matrices in financial institutions by allowing the right permissions, finding loopholes, and ensuring strong and secure user passwords.",
-    "skills": ["Python", "Cryptography", "Report Documentation", "Research"],
-    "image": "/projects/finvest.png",
-    "link": null,
-    "github": "https://github.com/charles-55/Finvest"
-  },
-  {
     "title": "Mini-Survey Monkey",
     "description": "A survey application that allows users to create and respond to surveys, and surveyors to analyze and visualize survey data with features like graphs and charts.",
     "skills": ["Spring Boot", "MySQL", "Azure", "GitHub Actions", "Chart.js"],
@@ -78,5 +62,21 @@
     "image": null,
     "link": null,
     "github": "https://github.com/charles-55/OnlineBookstore"
+  },
+  {
+    "title": "Shot by Charlie",
+    "description": "A web portfolio designed to showcase my photography skills.",
+    "skills": ["Photography", "Next.js", "Responsive Design"],
+    "image": "/projects/shotbycharlie.png",
+    "link": "https://shotbycharlie.vercel.app/",
+    "github": null
+  },
+  {
+    "title": "Roomie",
+    "description": "A mobile app designed to help users find roommates and housing accommodations. It also provides a platform for users to connect with potential landlords and real estate agents.",
+    "skills": ["React Native", "Node.js", "Express", "PostgreSQL", "MongoDB"],
+    "image": null,
+    "link": null,
+    "github": null
   }
 ]

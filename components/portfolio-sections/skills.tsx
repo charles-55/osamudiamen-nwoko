@@ -1,16 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { SiAmazon, SiAngular, SiApple, SiArduino, SiC, SiDjango, SiDocker, SiExpress, SiFirebase, SiFlutter, SiGithub, SiGithubactions, SiGooglecloud, SiJavascript, SiJira, SiLinux, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiNodedotjs, SiPhp, SiPostgresql, SiPostman, SiPython, SiReact, SiSpringboot, SiSwift, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { FaAmazon } from "react-icons/fa";
+import { SiApple, SiC, SiDjango, SiDocker, SiExpress, SiFirebase, SiFlutter, SiGithub, SiGithubactions, SiGooglecloud, SiJavascript, SiJira, SiLinux, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiNodedotjs, SiPhp, SiPostgresql, SiPostman, SiPython, SiReact, SiSpringboot, SiSwift, SiTailwindcss, SiTensorflow, SiTypescript } from "react-icons/si";
 
 const technologies = [
   { name: "React", icon: <SiReact className="w-10 h-10 text-blue-500" /> },
   { name: "Next.js", icon: <SiNextdotjs className="w-10 h-10 text-black dark:text-white" /> },
-  { name: "Angular", icon: <SiAngular className="w-10 h-10 text-red-600" /> },
   { name: "React Native", icon: <SiReact className="w-10 h-10 text-blue-500" /> },
   { name: "TypeScript", icon: <SiTypescript className="w-10 h-10 text-blue-600" /> },
   { name: "JavaScript", icon: <SiJavascript className="w-10 h-10 text-yellow-500" /> },
   { name: "Python", icon: <SiPython className="w-10 h-10 text-yellow-500" /> },
+  { name: "TensorFlow", icon: <SiTensorflow className="w-10 h-10 text-orange-500" /> },
   { name: "C", icon: <SiC className="w-10 h-10 text-blue-600" /> },
   { name: "Swift", icon: <SiSwift className="w-10 h-10 text-orange-500" /> },
   { name: "Node.js", icon: <SiNodedotjs className="w-10 h-10 text-green-600" /> },
@@ -21,8 +22,7 @@ const technologies = [
   { name: "PostgreSQL", icon: <SiPostgresql className="w-10 h-10 text-blue-700" /> },
   { name: "MySQL", icon: <SiMysql className="w-10 h-10 text-blue-700" /> },
   { name: "MongoDB", icon: <SiMongodb className="w-10 h-10 text-green-700" /> },
-  { name: "PHP", icon: <SiPhp className="w-10 h-10 text-purple-600" /> },
-  { name: "AWS", icon: <SiAmazon className="w-10 h-10 text-black dark:text-white" /> },
+  { name: "AWS", icon: <FaAmazon className="w-10 h-10 text-black dark:text-white" /> },
   { name: "GCP", icon: <SiGooglecloud className="w-10 h-10 text-blue-600" /> },
   { name: "Firebase", icon: <SiFirebase className="w-10 h-10 text-orange-600" /> },
   { name: "Docker", icon: <SiDocker className="w-10 h-10 text-blue-600" /> },
@@ -30,8 +30,6 @@ const technologies = [
   { name: "GitHub Actions", icon: <SiGithubactions className="w-10 h-10 text-black dark:text-white" /> },
   { name: "Jira", icon: <SiJira className="w-10 h-10 text-blue-600" /> },
   { name: "Flutter", icon: <SiFlutter className="w-10 h-10 text-blue-600" /> },
-  { name: "Tailwind CSS", icon: <SiTailwindcss className="w-10 h-10 text-blue-400" /> },
-  { name: "macOS", icon: <SiApple className="w-10 h-10 text-black dark:text-white" /> },
   { name: "Linux", icon: <SiLinux className="w-10 h-10 text-yellow-500" /> },
   { name: "Postman", icon: <SiPostman className="w-10 h-10 text-orange-600" /> },
 ];
@@ -64,8 +62,9 @@ export function Skills() {
               whileHover={{ y: -8, scale: 1.03 }}
               transition={{
                 duration: 0.3,
-                delay: 0.05 * index,
-                hover: { duration: 0.2 }
+                type: "spring",
+                stiffness: 300,
+                damping: 20
               }}
               viewport={{ once: true, margin: "-50px" }}
               className="relative overflow-hidden p-6 rounded-2xl bg-gradient-to-br from-white/80 to-white/20 dark:from-neutral-900/90 dark:to-neutral-800/50 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:shadow-[0_8px_30px_rgb(0,0,0,0.15)] border border-neutral-100 dark:border-neutral-700/80 backdrop-blur-sm hover:border-violet-400/50 dark:hover:border-violet-500/50 group transition-all duration-300"
@@ -87,8 +86,8 @@ export function Skills() {
                 className="block text-center font-medium text-neutral-700 dark:text-neutral-300 text-lg bg-clip-text bg-gradient-to-r from-neutral-600 to-neutral-900 dark:from-neutral-300 dark:to-neutral-100 relative"
                 whileHover={{
                   backgroundImage: "linear-gradient(to right, #7c3aed, #a78bfa)",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent"
+                  backgroundClip: "text",
+                  color: "transparent"
                 }}
               >
                 {tech.name}
