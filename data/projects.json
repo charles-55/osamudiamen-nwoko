@@ -1,5 +1,13 @@
 [
   {
+    "title": "Handwritten Digit Recognition",
+    "description": "This project implements a neural network to recognize handwritten digits from the MNIST dataset. It includes both a Dense (fully connected) model and a CNN (Convolutional Neural Network) model, training, evaluation, and a simple drawing interface for testing predictions.",
+    "skills": ["Machine Learning", "Convolutional Neural Network", "Python", "Dense Neural Network", "TensorFlow", "Image Recognition"],
+    "image": "/projects/handwritten-digit-recognition.png",
+    "link": null,
+    "github": "https://github.com/charles-55/handwritten-digit-recognition"
+  },
+  {
     "title": "Convene",
     "description": "Convene is a collaborative scheduling web application that helps teams find the best time to meet based on everyone's availability. Users can select their available time ranges across the week, and Convene will suggest and rank the optimal meeting times where multiple team members are available.",
     "skills": ["Next.js", "Node.js", "Express", "PostgreSQL", "MongoDB", "Tailwind CSS", "Prisma", "Vercel"],
