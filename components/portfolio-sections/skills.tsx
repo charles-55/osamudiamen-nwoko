@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FaAmazon } from "react-icons/fa";
-import { SiApple, SiC, SiDjango, SiDocker, SiExpress, SiFirebase, SiFlutter, SiGithub, SiGithubactions, SiGooglecloud, SiJavascript, SiJira, SiLinux, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiNodedotjs, SiPhp, SiPostgresql, SiPostman, SiPython, SiReact, SiSpringboot, SiSwift, SiTailwindcss, SiTensorflow, SiTypescript } from "react-icons/si";
+import { SiC, SiDjango, SiDocker, SiExpress, SiFirebase, SiFlutter, SiGithub, SiGithubactions, SiGooglecloud, SiJavascript, SiJira, SiLinux, SiMongodb, SiMysql, SiNestjs, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPostman, SiPython, SiReact, SiSpringboot, SiSwift, SiTensorflow, SiTypescript } from "react-icons/si";
 
 const technologies = [
   { name: "React", icon: <SiReact className="w-10 h-10 text-blue-500" /> },
