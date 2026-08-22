@@ -59,6 +59,17 @@ export function About() {
                   <FileText className="h-6 w-6 text-primary" />
                 </div>
                 <div>
+                  <h4 className="font-medium">CompTIA Network+ ce</h4>
+                  <p className="text-sm text-muted-foreground">CompTIA</p>
+                </div>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="flex items-start gap-4 p-6">
+                <div className="rounded-full bg-primary/10 p-3">
+                  <FileText className="h-6 w-6 text-primary" />
+                </div>
+                <div>
                   <h4 className="font-medium">Agile with Atlassian Jira</h4>
                   <p className="text-sm text-muted-foreground">Coursera</p>
                 </div>
