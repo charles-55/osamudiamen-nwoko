@@ -59,7 +59,7 @@ export function About() {
                   <FileText className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-medium">CompTIA Network+ ce</h4>
+                  <h4 className="font-medium">N10-009 - CompTIA Network+ ce</h4>
                   <p className="text-sm text-muted-foreground">CompTIA</p>
                 </div>
               </CardContent>
